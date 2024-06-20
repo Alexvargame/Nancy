@@ -1,0 +1,46 @@
+
+
+THE_OBJECTS ={
+  'THE_BOT': [(24,7),5,6,'BOT'],
+  'THE_SAFE': [(5,5),3,3,'SAFE']
+}
+
+THE_DIALOGS ={
+
+  'THE_PLAYER_DIALOG' :{
+     'state':{
+        1:{
+            'text':'Привет',
+            'act':0
+        },
+        2:{
+            'text':'Мне нужен ключ',
+            'act':0
+        }
+    }
+    },
+
+  'THE_BOT_DIALOG' :{
+    'state':{
+        1:{
+            'text':'Привет, искатель',
+            'act':0
+        },
+        2:{
+            'text':'Поищи в ящике',
+            'act':1
+        }
+    }
+    },
+  'THE_SAFE_DIALOG': {
+    'state': {
+      1: {
+        'text': 'Вот твой ключ',
+        'act': 0
+      }
+    }
+  }
+}
+
+
+
